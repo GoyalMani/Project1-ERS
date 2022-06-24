@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      h3 {
+  color: green;
+  font-family: verdana;
+  font-size: 100%;
+  text-align:center;
+}
+    body {
+    background-color: aqua;
+    font-family: "Oswald", sans-serif;
+    }
+
+
+    input[type="text"], input[type="password"]{
+    width:40%;
+    border: 1px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    }
+
+    .btn{
+    background-color: rgb(106, 106, 230);
+    width: 20%;
+    color: black;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+
+    }
+
+    a{
+    text-decoration: none;
+    color: blue;
+
+    }
+    </style>
+</head>
+<body bgcolot="aqua">
+
+<h3> Submit Reimbursement</h3>
+<form action="ESubmitservlet" method="post">
+
+
+<div>
+    <label>REM_TYPE</label>
+    <input type="text" name="Rem_type" placeholder="Enter MEDICAL OR BUSINESS OR TRAVEL OR OTHER">
+</div>
+    <br/>
+<div>
+    <label >REM_AMT  </label>
+    <input type="text" name="Rem_amt" placeholder="Enter Rem_amt">
+</div>
+<br/>
+    <input type="submit" value="SUBMIT" class="btn"/>
+
+
+
+</form>
+
+
+
+</body>
+</html>

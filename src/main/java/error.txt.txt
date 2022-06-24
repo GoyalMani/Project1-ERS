@@ -1,0 +1,6 @@
+Having error in
+1. byapprove request in manager portal
+2. deny request in manager portal
+3. logout ,not logged out of session
+4 view resolverequest in manager,not showing table headings.
+5. get emp by id, not able to print employee data.

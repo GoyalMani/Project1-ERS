@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      h3 {
+  color: green;
+  font-family: verdana;
+  font-size: 100%;
+  text-align:center;
+}
+    body {
+    background-color: aqua;
+    font-family: "Oswald", sans-serif;
+    }
+
+
+    input[type="text"], input[type="password"]{
+    width:20%;
+    border: 1px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    }
+    .btn{
+    background-color: rgb(106, 106, 230);
+    width: 20%;
+    color: black;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    }
+
+    a{
+    text-decoration: none;
+    color: blue;
+
+    }
+    </style>
+</head>
+<body>
+<h3>UPDATE REQUEST</h3>
+<form action ="Mapproveservlet" method="post">
+
+   <div>
+    <label>REM_ID</label>
+    <input type ="text" name="Rem_id" placeholder="Enter REM_Id">
+   </div>
+
+
+    <div>
+        <label>REM_STATUS</label>
+        <input type="text" name="Rem_stat" placeholder="Enter APPROVE OR DENY">
+    </div>
+
+    <input type = "submit" value="SAVE">
+</form>
+</body>
+</html>

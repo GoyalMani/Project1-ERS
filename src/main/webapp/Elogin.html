@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--running for employee-->
+<style>
+   @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+      body {
+        background-color: aqua;
+        font-family: "Oswald", sans-serif;
+      }
+      .wrapper{
+          background-color: green;
+          width: 400px;
+          margin: auto;
+          margin-top: 100px;
+          border-radius: 10px;
+          box-shadow: 10px 5px #888;
+          padding: 40px;
+      }
+
+      input[type="text"], input[type="password"]{
+          width:100%;
+          border: 1px solid red;
+          padding: 10px;
+          box-sizing: border-box;
+          margin-bottom: 20px;
+      }
+
+    .btn{
+        background-color: rgb(106, 106, 230);
+        width: 60%;
+        color: black;
+        border: none;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+    }
+
+      a{
+          text-decoration: none;
+          color: blue;
+
+      }
+</style>
+</head>
+<body>
+<div class="wrapper">
+<form action="Eloginservlet" method="post">
+    <h1>WELCOME TO EMPLOYEE PORTAL</h1>
+    <br/>
+    <div>
+
+        <label>EMP_ID</label>
+        <input type="text" name="Emp_id" placeholder="Enter Emp_id">
+    </div>
+    <br/>
+    <div>
+
+        <label>EMP_PWD</label>
+        <input type="password" name="Emp_Pwd" placeholder="Enter Emp_pwd">
+    </div>
+    <br/>
+    <input type="submit" value="LOGIN" class="btn"/>
+
+
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>Eloginservlet</servlet-name>
+    <servlet-class>servlet.Eloginservlet</servlet-class>
+      </servlet>
+  <servlet-mapping>
+    <servlet-name>Eloginservlet</servlet-name>
+    <url-pattern>/Eloginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Mloginservlet</servlet-name>
+    <servlet-class>servlet.Mloginservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mloginservlet</servlet-name>
+    <url-pattern>/Mloginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ESubmitservlet</servlet-name>
+    <servlet-class>servlet.ESubmitservlet</servlet-class>
+
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ESubmitservlet</servlet-name>
+    <url-pattern>/ESubmitservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MViewallservlet</servlet-name>
+    <servlet-class>servlet.MViewallservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MViewallservlet</servlet-name>
+    <url-pattern>/MViewallservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MPendingservlet</servlet-name>
+    <servlet-class>servlet.MPendingservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MPendingservlet</servlet-name>
+
+    <url-pattern>/MPendingservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Ependingservlet</servlet-name>
+    <servlet-class>servlet.Ependingservlet</servlet-class>
+      </servlet>
+  <servlet-mapping>
+    <servlet-name>Ependingservlet</servlet-name>
+    <url-pattern>/Ependingservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Eupdateservlet</servlet-name>
+    <servlet-class>servlet.Eupdateservlet</servlet-class>
+
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Eupdateservlet</servlet-name>
+    <url-pattern>/Eupdateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Eresolvedservlet</servlet-name>
+    <servlet-class>servlet.Eresolvedservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Eresolvedservlet</servlet-name>
+    <url-pattern>/Eresolvedservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Mresolvedservlet</servlet-name>
+    <servlet-class>servlet.Mresolvedservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mresolvedservlet</servlet-name>
+    <url-pattern>/Mresolvedservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Eviewservlet</servlet-name>
+    <servlet-class>servlet.Eviewservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Eviewservlet</servlet-name>
+    <url-pattern>/Eviewservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Mapproveservlet</servlet-name>
+    <servlet-class>servlet.Mapproveservlet</servlet-class>
+
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mapproveservlet</servlet-name>
+    <url-pattern>/Mapproveservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Mempbyidservlet</servlet-name>
+    <servlet-class>servlet.Mempbyidservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mempbyidservlet</servlet-name>
+    <url-pattern>/Mempbyidservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Mdenyservlet</servlet-name>
+    <servlet-class>servlet.Mdenyservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Mdenyservlet</servlet-name>
+    <url-pattern>/Mdenyservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Logoutservlet</servlet-name>
+    <servlet-class>servlet.Logoutservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logoutservlet</servlet-name>
+    <url-pattern>/Logoutservlet</url-pattern>
+  </servlet-mapping>
+</web-app>

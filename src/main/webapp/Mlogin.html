@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+   @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+      body {
+        background-color: aqua;
+        font-family: "Oswald", sans-serif;
+      }
+      .wrapper{
+          background-color: green;
+          width: 400px;
+          margin: auto;
+          margin-top: 100px;
+          border-radius: 10px;
+          box-shadow: 10px 5px #888;
+          padding: 40px;
+      }
+
+      input[type="text"], input[type="password"]{
+          width:100%;
+          border: 1px solid red;
+          padding: 10px;
+          box-sizing: border-box;
+          margin-bottom: 20px;
+          border-radius:5px;
+      }
+
+    .btn{
+        background-color: white;
+        width: 60%;
+        color: black;
+        border: 1px solid red;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+    }
+
+      a{
+          text-decoration: none;
+          color: blue;
+
+      }
+      </style>
+
+</head>
+<body>
+<!--running for manager-->
+<div class="wrapper">
+<form action="Mloginservlet" method="post">
+<h1>WELCOME TO MANAGER PORTAL</h1>
+<br/>
+<div>
+
+ <label> HR_ID</label>
+    <input type="text" name="Hr_id" placeholder="Enter Hr_id">
+</div>
+<br/>
+<div>
+
+    <label>HR_PWD</label>
+    <input type="password" name="Hr_Pwd" placeholder="Enter Hr_pwd">
+</div>
+<br/>
+<input type="submit" value="Login" class="btn">
+
+
+</form>
+</div>
+</body>
+</html>
